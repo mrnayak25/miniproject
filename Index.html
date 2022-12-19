@@ -1,1 +1,140 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lucky Draw</title>
+        <style>
+            body{
+                background-color: black;
+                color: aliceblue;
+            }
+            footer{
+              background-color: #FEC400;
+              color:black;
+              font-style:oblique;
+            
+            }
+            h1{
+                color:rgb(255, 111, 0);
+                font-size: 70px;
+            }
+           
+            .text{
+                background-color: transparent;
+                color: antiquewhite;
+            }
+            form{
+                margin-left: 30%;
+            }
+            h4{
+                padding-left: 5%;
+            }
+
+            li{
+                text-align: left;
+                font-style: italic;
+                
+            }
+            h3,form {
+            text-align: left;
+            font-size: 35px;
+            color: #FEC400;   
+            }
+            h2{
+                color:#FEC400
+            }
+            
+            img{
+                width: 500px;
+                height: 250px;;
+            }
+            button{
+                 margin-top: 20px;
+                 height:30px;
+                 background-color:yellow;
+
+                }
+                div{
+                    background-color: #FEC400;
+                    color: black;
+                    width: 40%;
+                    border-radius:10%;
+                    text-align: left;
+                    margin: 6%;
+                    padding: 3%;
+                    font-size: 20px;
+                }
+                input{
+                    padding: 1%;
+                }
+                
+        </style>
+        <script>
+            function showalert()
+            {
+                alert("Thanks for your participation!!!! \n Please check your token number on next page!!");
+            }
+            </script>
+    </head>
+    <body>
+         <center>
+            <h1>LUCKY LOOTS</h1>   
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCgO3Nk9QcDoA55jd94G-bmsdbHXTIYRhqA&usqp=CAU">
+        <br>
+        <h2>First Prize</h2>
+        <br><br>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0WlQOI5emWPg9XV8SCvqOYMlVolIoZZVhFD0cCnLjkvCSwpg1Nyjcy0&s=10">
+        <br>
+        <h2>Second Prize</h2>
+        <br><br>
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqkJpOpq-T1JbReL5ZKegArF9wpE6E4JiGWpe2QegE1zx-QEedOu1hAQc&s=10">
+        <br>
+        <h2>Third Prize</h2>
+        <br><br><br>
+        <h3 style="margin-left: 10%;">Other Prizes</h3>
+        <marquee direction="right"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyXhiCYcdI8VrBvINvjHsBxmCOkr8A4K2ww&usqp=CAU"> 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg/1200px"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrLNetXkiVa3fYjLv7u5TiMFG-QozEsKvyQ&usqp=CAU"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHcASZrV-Zpc5HV9Y1WehmFibJMJs255tsg&usqp=CAU">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVUrOYK9uVZLG7u6RzeCwraL2gcoV2xZzLKg&usqp=CAU">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNwxhOGQ0P667j3wIIVon6SZQLLvhtScJyHg&usqp=CAU">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMn8wzb_DvHpqzSnLbf7SNN1YUvK6dcgNnNw&usqp=CAU"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZRwVh1WNQQ39cEFJSNpsoezr98-tYvafvg&usqp=CAU"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3jY6fTZYSBwyM4QAGM2awaqqNEcN2qWQwA&usqp=CAU"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdoeoAmDgZQpSx_HduDnXFcIt6qDCymgdOvA&usqp=CAU">
+        </marquee>
+                <marquee  style="color: #fe9800;">*Note!!!!Please participate at your own risk</marquee>
+                <p>
+                  <div> 
+                     <h4 style="font-style:oblique; font-size: 30px;">Rules</h4>
+                 
+                    <ul>
+                        <li>Only 10 tickets per number</li>
+                        <li>We are not responsible for your loss</li>
+                        <li>The number given should be valid</li>
+                        <li>A token number will be randomly generated and assigned to you</li>
+
+                    </ul>
+                </p>  
+            </div>  
+                <form action="minipeojectp2.php" method="POST">
+                    <lable style="margin-right: 5px;">Name</lable> <input style="margin-left: 3%;" type="text" name="name" placeholder="Enter Your Name"><br>
+                  <br><label style="margin-right: 5px;" for="userNumber">Number</label><input style="margin-left: 1%;" id="userNumber" type="number" name="phone" placeholder="Enter phone number">
+               <br><br>
+               <div1 style="padding-left:10%;">
+                    <input style="background-color: #FEC400; color: red;" type="submit" value="Submit" name="submit" onclick="showalert();">
+                    <input style="margin-left: 7%; background-color: #FEC400; color: red;" type="reset" value="Clear" id="input2">
+                </div1>
+            </form>
+        
+        </div>
+    </center>
+    </body>
+    <footer>
+        <h4>Contact us</h4>
+        <h4>Phone:1800-200-300</h4>
+        <h4>or visit<a href="www.luckyloot.com">_____click here</h4>
+    </footer>
+</html>
