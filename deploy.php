@@ -10,10 +10,11 @@
   * https://medium.com/riow/deploy-to-production-server-with-git-using-php-ab69b13f78ad
   */
 
-$dbHost = 'localhost';
-$dbName = 'luckytoot';
-$dbUser = 'root';
-$dbPassword = '';
+
+$dbHost = 'sql6.freesqldatabase.com';
+$dbName = 'sql6585467';
+$dbUser = 'sql6585467';
+$dbPassword = '3idfY5vGdb';
 
 $mysql = mysqli_connect($dbHost,$dbUser,$dbPassword,$dbName);
 
